@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Holiday Countdown</title>
+</head>
+<body>
+    <header>
+        <h1>Holiday Countdown Platform</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Головна</a></li>
+                <li><a href="#">Реєстрація</a></li>
+                <li><a href="#">Додати подію</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h2>Мої події</h2>
+        <div id="event-list">
+            <!-- Список подій буде тут -->
+        </div>
+        
+        <h2>Додати нову подію</h2>
+        <form id="event-form">
+            <label for="event-name">Назва події:</label>
+            <input type="text" id="event-name" required>
+            <label for="event-date">Дата події:</label>
+            <input type="date" id="event-date" required>
+            <button type="submit">Додати подію</button>
+        </form>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
