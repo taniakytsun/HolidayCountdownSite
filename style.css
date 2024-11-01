@@ -1,19 +1,15 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 15px;
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
     text-align: center;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
 }
 
 nav ul li {
@@ -23,4 +19,22 @@ nav ul li {
 
 main {
     padding: 20px;
+}
+
+#events {
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+#event-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#event-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
 }
