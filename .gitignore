@@ -1,0 +1,12 @@
+# Ignoring log files
+*.log
+
+# Ignoring the environment settings folder
+.idea/
+
+# Ignore compilation files
+target/
+*.class
+
+# Ignoring configuration files
+.env
